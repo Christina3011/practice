@@ -1,0 +1,65 @@
+Here's a detailed walkthrough for collaborating on the "Report Generator" feature branch:
+
+### 1. Create and switch to the branch `feature-report-generator`:
+```bash
+git checkout -b feature-report-generator
+```
+
+### 2. Modify `report.js` to add the report generator functionality:
+- Edit the `report.js` file with the necessary updates using your code editor.
+
+### 3. Stage the changes made to `report.js`:
+```bash
+git add report.js
+```
+
+### 4. Commit the staged changes with the specified message:
+```bash
+git commit -m "Added report generator functionality"
+```
+
+### 5. Push the `feature-report-generator` branch to the remote repository for review:
+```bash
+git push origin feature-report-generator
+```
+
+### 6. Invite a teammate to collaborate:
+- Share the branch name (`feature-report-generator`) and repository link with your teammate.
+
+### 7. Pull updates from the branch after your teammate commits changes:
+```bash
+git pull origin feature-report-generator
+```
+
+### 8. Resolve conflicts in `report.js` during the pull:
+- Open the conflicting file (`report.js`) and manually resolve the conflicts.
+- Stage the resolved file:
+```bash
+git add report.js
+```
+- Commit the resolution:
+```bash
+git commit -m "Resolved conflicts in report.js"
+```
+
+### 9. Merge `feature-report-generator` into the `main` branch after testing:
+- Switch to the `main` branch:
+```bash
+git checkout main
+```
+- Merge the feature branch:
+```bash
+git merge feature-report-generator
+```
+
+### 10. Push the updated `main` branch to the remote repository:
+```bash
+git push origin main
+```
+
+### 11. Confirm changes by viewing the log:
+```bash
+git log --name-only
+```
+
+This process ensures smooth collaboration, conflict resolution, and merging while developing the "Report Generator" feature. Let me know if you need clarification on any step! 😊

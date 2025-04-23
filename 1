@@ -1,0 +1,60 @@
+Here's a step-by-step guide to complete the tasks you've outlined for the "BudgetPlanner" project:
+
+### 1. Create a folder and initialize it as a Git repository:
+```bash
+mkdir BudgetPlanner
+cd BudgetPlanner
+git init
+```
+
+### 2. Add the required files to the folder:
+```bash
+touch index.html style.css script.js
+```
+
+### 3. Check the repository's status to confirm the files are untracked:
+```bash
+git status
+```
+
+### 4. Stage all files for the first commit:
+```bash
+git add index.html style.css script.js
+```
+
+### 5. Commit the staged files with the message:
+```bash
+git commit -m "Initial commit: Added project base files"
+```
+
+### 6. Create a remote repository on GitHub and link it to your local repository:
+- On GitHub, create a new repository named "BudgetPlanner".
+- Copy the repository's URL (e.g., `https://github.com/yourusername/BudgetPlanner.git`).
+- Link the local repository to the remote repository:
+```bash
+git remote add origin https://github.com/yourusername/BudgetPlanner.git
+```
+
+### 7. Push the local repository to the remote repository:
+```bash
+git push -u origin main
+```
+
+### 8. Clone the remote repository onto a teammate's machine:
+- On the teammate's machine, run:
+```bash
+git clone https://github.com/yourusername/BudgetPlanner.git
+```
+
+### 9. Pull updates from the remote repository after new changes:
+- After a teammate adds files or makes changes and pushes them, pull the latest updates:
+```bash
+git pull origin main
+```
+
+### 10. Check the log to verify changes pushed by your teammate:
+```bash
+git log --name-only
+```
+
+This sequence of commands should help you efficiently set up and collaborate on the "BudgetPlanner" project. Let me know if you need any clarification or assistance with Git commands! 🚀
